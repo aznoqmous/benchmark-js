@@ -1,0 +1,19 @@
+@import "editor.scss";
+
+:root {
+    --color-0: #f6f6f6;
+    --color-10: #353535;
+}
+body {
+    font-family: monospace;
+    background: var(--color-0);
+    color: var(--color-10);
+}
+
+.editor {
+    position: relative;
+    .code-editor .hljs {
+        min-height: 20rem;
+    }
+}
+
