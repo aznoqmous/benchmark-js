@@ -1,12 +1,13 @@
 @import "editor.scss";
 
 :root {
-    --color-0: #f6f6f6;
-    --color-10: #353535;
+    --color-0: #0d1117;
+    --color-1: #171e29;
+    --color-10: #eee;
 }
 body {
     font-family: monospace;
-    background: var(--color-0);
+    background: var(--color-1);
     color: var(--color-10);
 }
 
@@ -17,3 +18,16 @@ body {
     }
 }
 
+
+button {
+    padding: 1rem;
+    background: var(--color-0);
+    color: var(--color-10);
+    border: none;
+    font: inherit;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+}
